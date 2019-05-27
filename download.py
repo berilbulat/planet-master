@@ -76,14 +76,3 @@ request_download_status(search_list)
 download_urls = request_download_location(search_list)
 print(download_urls)
 download_image(download_urls, "analytic")
-
-# search_list = activation.request_search_list()
-# print search_list
-
-# #TEST DOWNLOAD
-# download_urls = []
-# download_url = {}
-# download_url["thumb3"] = "https://tiles.planet.com/data/v1/item-types/PSScene4Band/items/20190127_180134_0f22/thumb"
-# download_urls.append(download_url)
-# download_image(download_urls)
-
