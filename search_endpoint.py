@@ -21,5 +21,3 @@ def search():
 	    auth=HTTPBasicAuth(environment['API_KEY'], ''),
 	    json=search_initialize() )
 	return result
-
-#print search().text
