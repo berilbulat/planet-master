@@ -23,7 +23,3 @@ def stats():
 	    auth=HTTPBasicAuth(environment['API_KEY'], ''),
 	    json=stats_initialize() )
 	return result
-
-
-
-print stats().text
